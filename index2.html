@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Borde dinamico</title>
+    <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card">
+            <img src="assets/img/deadthStar.jpg" alt="">
+            <p>Death Star</p>
+            <label for="cantidadStickers1">Cantidad de Stickers</label>
+            <input type="number" id="cantidadStickers1" name="cantidadSticker" min="1" max="10" step="1"
+                placeholder="Ingrese una cantidad" value="">
+
+        </div>
+
+        <div class="card">
+            <img src="assets/img/Executor.jpeg" alt="">
+            <p>Death Star</p>
+            <label for="cantidadStickers2">Cantidad de Stickers</label>
+            <input type="number" id="cantidadStickers2" name="cantidadSticker" min="1" max="10" step="1"
+                placeholder="Ingrese una cantidad" value="">
+        </div>
+
+        <div class="card">
+            <img src="assets/img/HomeOne.jpg" alt="">
+            <p>Death Star</p>
+            <label for="cantidadStickers3">Cantidad de Stickers</label>
+            <input type="number" id="cantidadStickers3" name="cantidadSticker" min="1" max="10" step="1"
+                placeholder="Ingrese una cantidad" value="">
+        </div>
+
+    </div>
+
+
+    <div class="container">
+        <div class="card">
+        <button id="enviarCantidadSticker">Check</button>
+        <h3>Estado: <span id="ticketSpan"></span></h3>
+    </div>
+    </div>
+    <script src="assets/js/stickers.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1vh;
+    width: 100%;
+    margin: 1vh;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px grey;
+    border-radius: 2%;
+    background-color: rgba(0, 0, 0, 0.831);
+    color: white;
+    width: 30%;
+    height: 30vh;
+}
+
+.card input {
+    color: rgb(0, 0, 0);
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.container img {
+    width: 50%;
+    height: 50%;
+}
+
+#enviarCantidadSticker {
+    width: 70%;
+    background-color: gray;
+}
